@@ -1,0 +1,137 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 253 246 240; /* cream */
+    --foreground: 45 45 45; /* charcoal */
+
+    --card: 253 246 240;
+    --card-foreground: 45 45 45;
+
+    --popover: 253 246 240;
+    --popover-foreground: 45 45 45;
+
+    --primary: 123 30 59; /* burgundy */
+    --primary-foreground: 253 246 240;
+
+    --secondary: 212 175 55; /* gold */
+    --secondary-foreground: 45 45 45;
+
+    --muted: 240 240 240;
+    --muted-foreground: 115 115 115;
+
+    --accent: 212 175 55;
+    --accent-foreground: 45 45 45;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 220 220;
+    --input: 220 220 220;
+    --ring: 123 30 59;
+
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-cream text-charcoal font-poppins;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair text-burgundy;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-burgundy to-gold bg-clip-text text-transparent;
+  }
+  
+  .hover-scale {
+    @apply transition-transform duration-300 hover:scale-105;
+  }
+  
+  .parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section-title {
+    @apply text-3xl sm:text-4xl md:text-5xl font-playfair font-bold text-burgundy mb-6;
+  }
+  
+  .section-divider {
+    @apply w-24 h-1 bg-gold mx-auto mb-8;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-charcoal/80 max-w-3xl mx-auto leading-relaxed mb-12;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:border-gold/40;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7B1E3B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5a1729;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-burgundy hover:bg-burgundy/90 text-cream font-medium;
+}
+
+.btn-secondary {
+  @apply bg-gold hover:bg-gold/90 text-charcoal font-medium;
+}
+
+.btn-outline {
+  @apply border-2 border-burgundy text-burgundy hover:bg-burgundy/10;
+}
+
+/* Card styles */
+.card-elegant {
+  @apply bg-cream border border-gold/20 shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300;
+}
+
+/* Section styles */
+.section-padding {
+  @apply py-16 md:py-20 lg:py-24;
+}
+
+.section-accent {
+  @apply bg-burgundy/10;
+}
+
+.section-dark {
+  @apply bg-charcoal text-cream;
+}
