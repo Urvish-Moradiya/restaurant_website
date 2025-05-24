@@ -106,12 +106,10 @@ const Testimonials = () => {
             {categories.map((category) => (
               <Button
                 key={category.id}
-                variant={activeCategory === category.id ? "default" : "outline"}
-                className={`px-6 py-3 font-semibold transition-all duration-300 ${
-                  activeCategory === category.id
-                    ? "bg-burgundy text-cream"
-                    : "border-burgundy text-burgundy hover:bg-burgundy hover:text-cream"
-                }`}
+                className={`px-6 py-3 font-playfair font-semibold ${activeCategory === category.id
+                    ? "bg-burgundy text-cream hover:bg-burgundy hover:shadow-lg"
+                    : "border-burgundy border-2 text-burgundy bg-cream hover:bg-burgundy hover:text-white hover:shadow-lg"
+                  }`}
                 onClick={() => setActiveCategory(category.id)}
               >
                 {category.name}
@@ -167,35 +165,7 @@ const Testimonials = () => {
         </div>
       </section>
 
-      {/* Social Media Integration */}
-      <section className="py-20 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-playfair font-bold text-cream mb-6">
-            Share Your Experience
-          </h2>
-          <div className="w-24 h-1 bg-gold mx-auto mb-8"></div>
-          <p className="text-cream/80 mb-8 max-w-2xl mx-auto">
-            We love hearing from our guests! Share your Bella Vista experience on social media 
-            and tag us to be featured.
-          </p>
-          
-          <div className="flex justify-center space-x-6">
-            <Button 
-              variant="outline" 
-              className="border-gold text-gold hover:bg-gold hover:text-charcoal"
-            >
-              @bellavista_restaurant
-            </Button>
-            <Button 
-              variant="outline" 
-              className="border-gold text-gold hover:bg-gold hover:text-charcoal"
-            >
-              #BellaVistaExperience
-            </Button>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
   );
 };
 

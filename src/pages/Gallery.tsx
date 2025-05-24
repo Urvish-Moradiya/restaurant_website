@@ -199,7 +199,7 @@ const Gallery = () => {
       caption: "Bar Counter Design"
     },
     {
-      url: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?",
+      url: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
       category: "interior",
       caption: "Elegant Table Setting"
     },
@@ -291,12 +291,10 @@ const Gallery = () => {
             {filters.map((filter) => (
               <Button
                 key={filter.id}
-                variant={activeFilter === filter.id ? "default" : "outline"}
-                className={`px-6 py-3 font-semibold transition-all duration-300 ${
-                  activeFilter === filter.id
-                    ? "bg-burgundy text-cream"
-                    : "border-burgundy text-burgundy hover:bg-burgundy hover:text-cream"
-                }`}
+                className={`px-6 py-3 font-playfair font-semibold ${activeFilter === filter.id
+                    ? "bg-burgundy text-cream hover:bg-burgundy hover:shadow-lg"
+                    : "border-burgundy border-2 text-burgundy bg-cream hover:bg-burgundy hover:text-white hover:shadow-lg"
+                  }`}
                 onClick={() => setActiveFilter(filter.id)}
               >
                 {filter.name}

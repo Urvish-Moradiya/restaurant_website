@@ -25,7 +25,7 @@ const App = () => (
       <BrowserRouter>
         <div className="min-h-screen flex flex-col">
           <Navbar />
-          <main className="flex-grow pt-16">
+          <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/menu" element={<Menu />} />

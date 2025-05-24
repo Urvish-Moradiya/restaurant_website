@@ -222,39 +222,7 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section className="py-20 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-playfair font-bold text-cream mb-6">
-            Stay in the Flavor Loop
-          </h2>
-          <div className="w-24 h-1 bg-gold mx-auto mb-8"></div>
-          <p className="text-cream/80 mb-8 max-w-2xl mx-auto">
-            Be the first to know about new dishes, special events, and exclusive offers. 
-            Join our culinary community and never miss a delicious update.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto">
-            <Input
-              type="email"
-              placeholder="Enter your email address"
-              className="flex-1 px-4 py-3"
-            />
-            <Button className="bg-gold hover:bg-gold/90 text-charcoal px-8 py-3 font-semibold">
-              Subscribe
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* Map Section */}
-      <section className="h-96 bg-gray-200">
-        <div className="w-full h-full flex items-center justify-center text-charcoal/60">
-          <p className="text-lg font-playfair">
-            Interactive Map Coming Soon
-          </p>
-        </div>
-      </section>
+      
     </div>
   );
 };

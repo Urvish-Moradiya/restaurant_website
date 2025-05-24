@@ -230,7 +230,7 @@ const Menu = () => {
         "price": "$6",
         "image": "https://images.unsplash.com/photo-1585620365973-0e682a8e6314",
         "category": "Hot Beverages",
-        "tags": ["Coffee", "Colombian", "Nutty", "Creamy", "Rich","Strong"]
+        "tags": ["Coffee", "Colombian", "Nutty", "Creamy", "Rich", "Strong"]
       }
     ]
 
@@ -258,10 +258,9 @@ const Menu = () => {
             {categories.map((category) => (
               <Button
                 key={category.id}
-                variant={activeCategory === category.id ? "default" : "outline"}
                 className={`px-6 py-3 font-playfair font-semibold ${activeCategory === category.id
-                  ? "bg-burgundy text-cream"
-                  : "border-burgundy text-burgundy hover:bg-burgundy/10 hover:text-burgundy"
+                    ? "bg-burgundy text-cream hover:bg-burgundy hover:shadow-lg"
+                    : "border-burgundy border-2 text-burgundy bg-cream hover:bg-burgundy hover:text-white hover:shadow-lg"
                   }`}
                 onClick={() => setActiveCategory(category.id)}
               >
@@ -320,17 +319,12 @@ const Menu = () => {
                             </p>
                           )}
 
-                          {item.notes && (
-                            <p className="text-sm text-charcoal/70 mb-3">
-                              {item.notes}
-                            </p>
-                          )}
                         </div>
 
                         <div>
                           <div className="flex flex-wrap gap-2 mb-3">
                             {item.tags?.map((tag) => (
-                              <Badge key={tag} className="bg-burgundy/90 text-cream text-xs">
+                              <Badge key={tag} className="bg-burgundy text-cream text-xs hover:bg-burgundy ">
                                 {tag}
                               </Badge>
                             ))}

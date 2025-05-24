@@ -83,13 +83,13 @@ const About = () => {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-charcoal">
+      <section className="py-20 bg-gradient-to-b from-burgundy to-charcoal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8">
             <h2 className="text-4xl font-playfair font-bold text-cream mb-6">
               Faces Behind the Flavors
             </h2>
-            <div className="w-24 h-1 bg-gold mx-auto mb-6"></div>
+            <div className="w-24 h-1 bg-gold mx-auto mb-4"></div>
             <p className="text-xl text-cream/80 max-w-2xl mx-auto">
               Meet the talented individuals who bring passion and expertise to every aspect of your dining experience
             </p>
@@ -134,7 +134,7 @@ const About = () => {
       {/* Philosophy Section */}
       <section className="py-20 relative overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-fixed opacity-20"
+          className="absolute inset-0 bg-cover bg-center bg-fixed opacity-30"
           style={{
             backgroundImage: `url('https://images.unsplash.com/photo-1667388969250-1c7220bf3f37')`
           }}
@@ -143,9 +143,7 @@ const About = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-playfair font-bold text-charcoal mb-6">
             Our Kitchen Philosophy
-          </h2>
-          <div className="w-24 h-1 bg-gold mx-auto mb-12"></div>
-          
+          </h2>          
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl font-playfair font-semibold text-burgundy mb-8">
               Locally Sourced. Seasonally Inspired. Crafted with Conscience.
