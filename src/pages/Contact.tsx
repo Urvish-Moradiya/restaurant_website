@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-cream">
       {/* Hero Section */}
-      <section className="relative py-32 bg-charcoal">
+      <section className="relative py-32 bg-gradient-to-b from-burgundy to-charcoal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-6xl font-playfair font-bold text-cream mb-6">
             Let's Connect

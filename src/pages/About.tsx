@@ -4,21 +4,21 @@ const About = () => {
       name: "Marco Benedetti",
       role: "Head Chef",
       specialty: "French & Italian Cuisine",
-      image: "https://images.unsplash.com/photo-1583394293214-28ded15ee548?q=80&w=400&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1697898109582-40f15c65f174",
       bio: "With over 15 years of experience in Michelin-starred kitchens across Europe, Chef Marco brings passion and precision to every dish."
     },
     {
       name: "Sophie Laurent",
       role: "Sous Chef",
       specialty: "Pastry & Desserts",
-      image: "https://images.unsplash.com/photo-1494790108755-2616c2e00d53?q=80&w=400&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1731412657838-c04d8500917f",
       bio: "A graduate of Le Cordon Bleu, Sophie's innovative desserts have been featured in culinary magazines worldwide."
     },
     {
       name: "James Morrison",
       role: "Head Sommelier",
       specialty: "Wine Pairings",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=400&auto=format&fit=crop",
+      image: "https://plus.unsplash.com/premium_photo-1676651534759-5556422fa93d",
       bio: "James holds advanced certifications from the Court of Master Sommeliers and curates our extensive wine collection."
     }
   ];
@@ -26,7 +26,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-cream">
       {/* Hero Section */}
-      <section className="relative py-32 bg-charcoal">
+      <section className="relative py-32 bg-gradient-to-b from-burgundy to-charcoal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-6xl font-playfair font-bold text-cream mb-6">
             Our Culinary Journey
@@ -73,7 +73,7 @@ const About = () => {
             
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?q=80&w=600&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1667388969250-1c7220bf3f37"
                 alt="Chef at work"
                 className="rounded-lg shadow-2xl hover-scale"
               />
@@ -106,7 +106,7 @@ const About = () => {
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
@@ -136,7 +136,7 @@ const About = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-fixed opacity-20"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1721322800607-8c38375eef04?q=80&w=2070&auto=format&fit=crop')`
+            backgroundImage: `url('https://images.unsplash.com/photo-1667388969250-1c7220bf3f37')`
           }}
         />
         

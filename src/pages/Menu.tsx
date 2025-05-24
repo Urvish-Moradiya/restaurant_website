@@ -18,222 +18,228 @@ const Menu = () => {
   const menuItems = {
     appetizers: [
       {
-        name: "Seared Scallops",
-        description: "Pan-seared scallops with cauliflower purée, pancetta, and micro herbs",
-        price: "$18",
-        image: "https://images.unsplash.com/photo-1632180352977-bc449a9bce33?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Shellfish"],
-        tags: ["Chef's Special"]
+        "name": "Seared Scallops",
+        "description": "Pan-seared scallops with cauliflower purée, pancetta, and micro herbs",
+        "price": "$18",
+        "image": "https://images.unsplash.com/photo-1623188509154-fec43b95bf21",
+        "allergens": ["Shellfish"],
+        "tags": ["Chef's Special"]
       },
       {
-        name: "Burrata & Prosciutto",
-        description: "Fresh burrata with San Daniele prosciutto, fig compote, and arugula",
-        price: "$16",
-        image: "https://images.unsplash.com/photo-1505575967455-40e256f73376?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Dairy"],
-        tags: ["Vegetarian"]
+        "name": "Burrata & Prosciutto",
+        "description": "Fresh burrata with San Daniele prosciutto, fig compote, and arugula",
+        "price": "$16",
+        "image": "https://images.unsplash.com/photo-1700483540089-63307e6dbca1",
+        "allergens": ["Dairy"],
+        "tags": ["Vegetarian"]
       },
       {
-        name: "Tuna Tartare",
-        description: "Yellowfin tuna with avocado, citrus, and sesame oil",
-        price: "$22",
-        image: "https://images.unsplash.com/photo-1676968419539-88a66c11dd70?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Fish", "Sesame"],
-        tags: ["Raw", "Gluten-Free"]
+        "name": "Tuna Tartare",
+        "description": "Yellowfin tuna with avocado, citrus, and sesame oil",
+        "price": "$22",
+        "image": "https://images.unsplash.com/photo-1722012988794-196d72bd12aa",
+        "allergens": ["Fish", "Sesame"],
+        "tags": ["Raw", "Gluten-Free"]
       },
       {
-        name: "Truffle Arancini",
-        description: "Crispy risotto balls filled with wild mushrooms and truffle oil",
-        price: "$14",
-        image: "https://images.unsplash.com/photo-1593351415075-3bac9f45c877?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Dairy", "Eggs"],
-        tags: ["Vegetarian", "Popular"]
+        "name": "Truffle Arancini",
+        "description": "Crispy risotto balls filled with wild mushrooms and truffle oil",
+        "price": "$14",
+        "image": "https://images.unsplash.com/photo-1647483707950-92c27bb437f5",
+        "allergens": ["Dairy", "Eggs"],
+        "tags": ["Vegetarian", "Popular"]
       },
       {
-        name: "Oysters Rockefeller",
-        description: "Fresh oysters baked with spinach, herbs, and parmesan cheese",
-        price: "$20",
-        image: "https://images.unsplash.com/photo-1585545335512-777966e42c01?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Shellfish", "Dairy"],
-        tags: ["Classic"]
+        "name": "Oysters Rockefeller",
+        "description": "Fresh oysters baked with spinach, herbs, and parmesan cheese",
+        "price": "$20",
+        "image": "https://images.unsplash.com/photo-1584776252066-7ad031913ca0",
+        "allergens": ["Shellfish", "Dairy"],
+        "tags": ["Classic"]
       },
       {
-        name: "Beet Carpaccio",
-        description: "Thinly sliced roasted beets with goat cheese and candied walnuts",
-        price: "$13",
-        image: "https://images.unsplash.com/photo-1662979291159-d9223cb45220?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Dairy", "Nuts"],
-        tags: ["Vegan Option", "Seasonal"]
+        "name": "Beet Carpaccio",
+        "description": "Thinly sliced roasted beets with goat cheese and candied walnuts",
+        "price": "$13",
+        "image": "https://images.unsplash.com/photo-1726514733355-02fe48ae6795",
+        "allergens": ["Dairy", "Nuts"],
+        "tags": ["Vegan Option", "Seasonal"]
       }
-    ],
+    ]
+    ,
     mains: [
       {
-        name: "Wagyu Beef Tenderloin",
-        description: "Grade A5 wagyu with truffle butter and red wine reduction",
-        price: "$85",
-        image: "https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?q=80&w=800&auto=format&fit=crop",
-        pairing: "Best with: Cabernet Sauvignon",
-        allergens: ["None"],
-        tags: ["Premium", "Chef's Special"]
+        "name": "Wagyu Beef Tenderloin",
+        "description": "Grade A5 wagyu with truffle butter and red wine reduction",
+        "price": "$85",
+        "image": "https://images.unsplash.com/photo-1570572169431-799a25652c0a",
+        "pairing": "Best with: Cabernet Sauvignon",
+        "allergens": ["None"],
+        "tags": ["Premium", "Chef's Special"]
       },
       {
-        name: "Lobster Thermidor",
-        description: "Half lobster with cognac cream sauce and gruyere",
-        price: "$48",
-        image: "https://images.unsplash.com/photo-1599150389155-5fd840ae1548?q=80&w=800&auto=format&fit=crop",
-        pairing: "Best with: Chardonnay",
-        allergens: ["Shellfish", "Dairy"],
-        tags: ["Signature"]
+        "name": "Lobster Thermidor",
+        "description": "Half lobster with cognac cream sauce and gruyere",
+        "price": "$48",
+        "image": "https://images.unsplash.com/photo-1588791174744-7e9bf4378277",
+        "pairing": "Best with: Chardonnay",
+        "allergens": ["Shellfish", "Dairy"],
+        "tags": ["Signature"]
       },
       {
-        name: "Herb-Crusted Lamb",
-        description: "Rack of lamb with rosemary, thyme, and mint jus",
-        price: "$42",
-        image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?q=80&w=800&auto=format&fit=crop",
-        pairing: "Best with: Pinot Noir",
-        allergens: ["None"],
-        tags: ["Gluten-Free"]
+        "name": "Herb-Crusted Lamb",
+        "description": "Rack of lamb with rosemary, thyme, and mint jus",
+        "price": "$42",
+        "image": "https://images.unsplash.com/photo-1634564375126-ea3ed65a166b",
+        "pairing": "Best with: Pinot Noir",
+        "allergens": ["None"],
+        "tags": ["Gluten-Free"]
       },
       {
-        name: "Pan-Seared Salmon",
-        description: "Atlantic salmon with lemon butter sauce and seasonal vegetables",
-        price: "$32",
-        image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop",
-        pairing: "Best with: Sauvignon Blanc",
-        allergens: ["Fish"],
-        tags: ["Heart Healthy", "Popular"]
+        "name": "Pan-Seared Salmon",
+        "description": "Atlantic salmon with lemon butter sauce and seasonal vegetables",
+        "price": "$32",
+        "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435",
+        "pairing": "Best with: Sauvignon Blanc",
+        "allergens": ["Fish"],
+        "tags": ["Heart Healthy", "Popular"]
       },
       {
-        name: "Osso Buco",
-        description: "Braised veal shanks with saffron risotto and gremolata",
-        price: "$38",
-        image: "https://images.unsplash.com/photo-1593030668930-8130abac83b0?q=80&w=800&auto=format&fit=crop",
-        pairing: "Best with: Barolo",
-        allergens: ["Dairy"],
-        tags: ["Traditional", "Slow Cooked"]
+        "name": "Osso Buco",
+        "description": "Braised veal shanks with saffron risotto and gremolata",
+        "price": "$38",
+        "image": "https://images.unsplash.com/photo-1644809649533-fcadfad3bfe5",
+        "pairing": "Best with: Barolo",
+        "allergens": ["Dairy"],
+        "tags": ["Traditional", "Slow Cooked"]
       },
       {
-        name: "Mushroom Wellington",
-        description: "Wild mushrooms and chestnuts wrapped in puff pastry",
-        price: "$28",
-        image: "https://images.unsplash.com/photo-1597550413655-79865473eef2?q=80&w=800&auto=format&fit=crop",
-        pairing: "Best with: Pinot Grigio",
-        allergens: ["Gluten", "Nuts"],
-        tags: ["Vegan", "Seasonal"]
+        "name": "Mushroom Wellington",
+        "description": "Wild mushrooms and chestnuts wrapped in puff pastry",
+        "price": "$28",
+        "image": "https://images.unsplash.com/photo-1617307715850-c6965f2aead4",
+        "pairing": "Best with: Pinot Grigio",
+        "allergens": ["Gluten", "Nuts"],
+        "tags": ["Vegan", "Seasonal"]
       },
       {
-        name: "Duck Confit",
-        description: "Slow-cooked duck leg with cherry gastrique and potato gratin",
-        price: "$36",
-        image: "https://images.unsplash.com/photo-1675251450771-d201a973819c?q=80&w=800&auto=format&fit=crop",
-        pairing: "Best with: Côtes du Rhône",
-        allergens: ["Dairy"],
-        tags: ["French Classic"]
+        "name": "Duck Confit",
+        "description": "Slow-cooked duck leg with cherry gastrique and potato gratin",
+        "price": "$36",
+        "image": "https://images.unsplash.com/photo-1616669944447-d65d41a222bd",
+        "pairing": "Best with: Côtes du Rhône",
+        "allergens": ["Dairy"],
+        "tags": ["French Classic"]
       },
       {
-        name: "Grilled Octopus",
-        description: "Mediterranean-style grilled octopus with chickpeas and olive tapenade",
-        price: "$34",
-        image: "https://images.unsplash.com/photo-1641645936398-0aded6d76dfd?q=80&w=800&auto=format&fit=crop",
-        pairing: "Best with: Vermentino",
-        allergens: ["Seafood"],
-        tags: ["Mediterranean", "Gluten-Free"]
+        "name": "Grilled Octopus",
+        "description": "Mediterranean-style grilled octopus with chickpeas and olive tapenade",
+        "price": "$34",
+        "image": "https://plus.unsplash.com/premium_photo-1719530453995-f5eb382ae179",
+        "pairing": "Best with: Vermentino",
+        "allergens": ["Seafood"],
+        "tags": ["Mediterranean", "Gluten-Free"]
       }
     ],
     desserts: [
       {
-        name: "Chocolate Soufflé",
-        description: "Dark chocolate soufflé with vanilla bean ice cream",
-        price: "$14",
-        image: "https://images.unsplash.com/photo-1587314168485-3236d6710002?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Dairy", "Eggs"],
-        tags: ["Seasonal Special"]
+        "name": "Chocolate Soufflé",
+        "description": "Dark chocolate soufflé with vanilla bean ice cream",
+        "price": "$14",
+        "image": "https://images.unsplash.com/photo-1608157239853-c7abcb0ed9d6",
+        "allergens": ["Dairy", "Eggs"],
+        "tags": ["Seasonal Special"]
       },
       {
-        name: "Lemon Tart",
-        description: "Meyer lemon curd with graham cracker crust and berry compote",
-        price: "$12",
-        image: "https://images.unsplash.com/photo-1603383928972-2be74fcb47fb?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Dairy", "Eggs", "Gluten"],
-        tags: ["Gluten-Free Option"]
+        "name": "Lemon Tart",
+        "description": "Meyer lemon curd with graham cracker crust and berry compote",
+        "price": "$12",
+        "image": "https://images.unsplash.com/photo-1630151317982-42427bad4303",
+        "allergens": ["Dairy", "Eggs", "Gluten"],
+        "tags": ["Gluten-Free Option"]
       },
       {
-        name: "Tiramisu",
-        description: "Classic Italian dessert with espresso-soaked ladyfingers",
-        price: "$11",
-        image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Dairy", "Eggs", "Alcohol"],
-        tags: ["Traditional", "Coffee"]
+        "name": "Tiramisu",
+        "description": "Classic Italian dessert with espresso-soaked ladyfingers",
+        "price": "$11",
+        "image": "https://images.unsplash.com/photo-1631206753348-db44968fd440",
+        "allergens": ["Dairy", "Eggs", "Alcohol"],
+        "tags": ["Traditional", "Coffee"]
       },
       {
-        name: "Crème Brûlée",
-        description: "Vanilla custard with caramelized sugar and fresh berries",
-        price: "$13",
-        image: "https://images.unsplash.com/photo-1488477304112-4944851de03d?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Dairy", "Eggs"],
-        tags: ["Classic", "Popular"]
+        "name": "Crème Brûlée",
+        "description": "Vanilla custard with caramelized sugar and fresh berries",
+        "price": "$13",
+        "image": "https://images.unsplash.com/photo-1676300184943-09b2a08319a3",
+        "allergens": ["Dairy", "Eggs"],
+        "tags": ["Classic", "Popular"]
       },
       {
-        name: "Chocolate Lava Cake",
-        description: "Warm chocolate cake with molten center and raspberry coulis",
-        price: "$15",
-        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop",
-        allergens: ["Dairy", "Eggs", "Gluten"],
-        tags: ["Warm", "Decadent"]
+        "name": "Chocolate Lava Cake",
+        "description": "Warm chocolate cake with molten center and raspberry coulis",
+        "price": "$15",
+        "image": "https://images.unsplash.com/photo-1625497248011-3c634a78df8b",
+        "allergens": ["Dairy", "Eggs", "Gluten"],
+        "tags": ["Warm", "Decadent"]
       }
     ],
     drinks: [
       {
-        name: "Signature Bellini",
-        description: "Prosecco with white peach purée and elderflower",
-        price: "$16",
-        image: "https://images.unsplash.com/photo-1621873495613-14b485fbfb42?q=80&w=800&auto=format&fit=crop",
-        category: "Cocktails"
+        "name": "Signature Bellini",
+        "description": "Prosecco with white peach purée and elderflower",
+        "price": "$16",
+        "image": "https://images.unsplash.com/photo-1711861399198-649bc0ddc33f",
+        "category": "Cocktails",
+        "tags": ["Prosecco", "Peach", "Elderflower", "Fruity", "Sparkling"]
       },
       {
-        name: "Guatemalan Single-Origin",
-        description: "Hand-selected beans from Huehuetenango region",
-        price: "$8",
-        image: "https://images.unsplash.com/photo-1518057111178-44a106bad149?q=80&w=800&auto=format&fit=crop",
-        category: "Hot Beverages",
-        notes: "Notes of chocolate and citrus"
+        "name": "Guatemalan Single-Origin",
+        "description": "Hand-selected beans from Huehuetenango region",
+        "price": "$8",
+        "image": "https://images.unsplash.com/photo-1573416334306-5e8903433169",
+        "category": "Hot Beverages",
+        "tags": ["Coffee", "Single-Origin", "Huehuetenango", "Chocolate", "Citrus"]
       },
       {
-        name: "Burgundy Old Fashioned",
-        description: "Aged bourbon with cherry syrup and orange bitters",
-        price: "$18",
-        image: "https://images.unsplash.com/photo-1627758027938-7967c4222f34?q=80&w=800&auto=format&fit=crop",
-        category: "Cocktails"
+        "name": "Burgundy Old Fashioned",
+        "description": "Aged bourbon with cherry syrup and orange bitters",
+        "price": "$18",
+        "image": "https://images.unsplash.com/photo-1474722883778-792e7990302f",
+        "category": "Cocktails",
+        "tags": ["Bourbon", "Cherry", "Orange", "Bitters", "Classic"]
       },
       {
-        name: "Garden Gin & Tonic",
-        description: "Premium gin with house-made tonic and fresh herbs",
-        price: "$15",
-        image: "https://images.unsplash.com/photo-1596097635121-14a636429d64?q=80&w=800&auto=format&fit=crop",
-        category: "Cocktails"
+        "name": "Garden Gin & Tonic",
+        "description": "Premium gin with house-made tonic and fresh herbs",
+        "price": "$15",
+        "image": "https://images.unsplash.com/photo-1563940476958-509a0a881c0c",
+        "category": "Cocktails",
+        "tags": ["Gin", "Tonic", "Herbal", "Refreshing", "Botanical"]
       },
       {
-        name: "Lavender Lemonade",
-        description: "Fresh lemon juice with lavender simple syrup",
-        price: "$9",
-        image: "https://images.unsplash.com/photo-1621263764928-df1444c5c859?q=80&w=800&auto=format&fit=crop",
-        category: "Mocktails"
+        "name": "Lavender Lemonade",
+        "description": "Fresh lemon juice with lavender simple syrup",
+        "price": "$9",
+        "image": "https://images.unsplash.com/photo-1701875379650-d632c0575b54",
+        "category": "Mocktails",
+        "tags": ["Lemon", "Lavender", "Non-Alcoholic", "Citrus", "Floral"]
       },
       {
-        name: "French Press Coffee",
-        description: "Rich Colombian blend served with cream and sugar",
-        price: "$6",
-        image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800&auto=format&fit=crop",
-        category: "Hot Beverages",
-        notes: "Full-bodied with nutty undertones"
+        "name": "French Press Coffee",
+        "description": "Rich Colombian blend served with cream and sugar",
+        "price": "$6",
+        "image": "https://images.unsplash.com/photo-1585620365973-0e682a8e6314",
+        "category": "Hot Beverages",
+        "tags": ["Coffee", "Colombian", "Nutty", "Creamy", "Rich","Strong"]
       }
     ]
+
   };
 
   return (
     <div className="min-h-screen bg-cream">
       {/* Hero Section */}
-      <section className="relative py-32 bg-gradient-to-r from-burgundy to-burgundy/90">
+      <section className="relative py-32 bg-gradient-to-b from-burgundy to-charcoal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-6xl font-playfair font-bold text-cream mb-6">
             Crafted with Passion
@@ -253,11 +259,10 @@ const Menu = () => {
               <Button
                 key={category.id}
                 variant={activeCategory === category.id ? "default" : "outline"}
-                className={`px-6 py-3 font-playfair font-semibold ${
-                  activeCategory === category.id
-                    ? "bg-burgundy text-cream"
-                    : "border-burgundy text-burgundy hover:bg-burgundy/10 hover:text-burgundy"
-                }`}
+                className={`px-6 py-3 font-playfair font-semibold ${activeCategory === category.id
+                  ? "bg-burgundy text-cream"
+                  : "border-burgundy text-burgundy hover:bg-burgundy/10 hover:text-burgundy"
+                  }`}
                 onClick={() => setActiveCategory(category.id)}
               >
                 {category.name}
@@ -304,7 +309,7 @@ const Menu = () => {
                               {item.price}
                             </span>
                           </div>
-                          
+
                           <p className="text-charcoal/80 mb-4 leading-relaxed">
                             {item.description}
                           </p>
@@ -374,7 +379,7 @@ const Menu = () => {
           <p className="text-lg text-charcoal/80 max-w-2xl mx-auto mb-8">
             Discover our chef's limited-time creations featuring the freshest seasonal ingredients
           </p>
-          <Button 
+          <Button
             className="bg-burgundy hover:bg-burgundy/90 text-cream font-medium px-8 py-6"
             onClick={() => setActiveCategory('mains')}
           >

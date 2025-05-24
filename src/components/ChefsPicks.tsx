@@ -11,7 +11,7 @@ const dishes = [
     description: "Tender Chilean sea bass grilled with lemon caper sauce, served over sautéed spinach and herbed fingerling potatoes for a gourmet meal.",
     ingredients: ["Chilean sea bass","Spinach", "Fingerling potatoes"],
     price: "$49",
-    image: "https://images.unsplash.com/photo-1606851091841-7fa6e6218b8c",
+    image: "https://images.unsplash.com/photo-1644809649533-fcadfad3bfe5",
     tags: ["Seafood", "Gluten-Free", "Premium"]
   },
   {
@@ -20,7 +20,7 @@ const dishes = [
     description: "Pillowy gnocchi tossed in browned butter with roasted butternut squash, fresh sage, and toasted pine nuts for rich autumn flavor.",
     ingredients: ["Butternut squash", "Gnocchi", "Browned butter", "Pine nuts"],
     price: "$32",
-    image: "https://images.unsplash.com/photo-1631515291771-d0a7d3c1ad3d",
+    image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288",
     tags: ["Vegetarian", "Chef's Favorite"]
   },
   {
@@ -29,7 +29,7 @@ const dishes = [
     description: "Juicy rack of lamb crusted with garlic and herbs, oven-roasted and served with mint chimichurri and roasted root vegetables.",
     ingredients: ["Lamb rack", "Garlic", "Mint chimichurri", "vegetables"],
     price: "$58",
-    image: "https://images.unsplash.com/photo-1607330289190-64ecb3cbe3c2",
+    image: "https://images.unsplash.com/photo-1634564375126-ea3ed65a166b",
     tags: ["Premium", "Signature"]
   },
   {
@@ -38,7 +38,7 @@ const dishes = [
     description: "Sushi-grade tuna diced and tossed in sesame-ginger dressing, served with avocado and crispy wontons for a refreshing starter.",
     ingredients: ["Tuna", "Avocado", "Sesame oil", "Ginger", "Wonton crisps"],
     price: "$27",
-    image: "https://images.unsplash.com/photo-1585238342028-38fba1c1a9c7",
+    image: "https://images.unsplash.com/photo-1712183718506-41a054650697",
     tags: ["Appetizer", "Spicy", "Seafood"]
   },
   {
@@ -47,7 +47,7 @@ const dishes = [
     description: "Creamy risotto made with arborio rice, wild mushrooms, white wine, parmesan cheese, and finished with aromatic truffle oil.",
     ingredients: ["Wild mushrooms", "Parmesan", "Truffle oil", "White wine"],
     price: "$35",
-    image: "https://images.unsplash.com/photo-1625937323581-bb0d1b26c7b5",
+    image: "https://images.unsplash.com/photo-1595908128774-93d51801fa39",
     tags: ["Vegetarian", "Comfort Food"]
   },
   {
@@ -56,7 +56,7 @@ const dishes = [
     description: "A colorful variety of seasonal vegetables fire-roasted and served with romesco sauce and garlic aioli for a hearty plant-based option.",
     ingredients: ["Bell peppers", "Zucchini", "Eggplant", "Romesco", "Garlic aioli"],
     price: "$26",
-    image: "https://images.unsplash.com/photo-1603048297805-ece26d4f2f8e",
+    image: "https://images.unsplash.com/photo-1691749123977-0701680083b8",
     tags: ["Vegan", "Healthy"]
   },
   {
@@ -65,7 +65,7 @@ const dishes = [
     description: "Tender beef short ribs marinated in sweet and spicy Korean BBQ sauce, served with house-made kimchi and jasmine rice.",
     ingredients: ["Beef short ribs", "Korean BBQ sauce", "Kimchi", "Jasmine rice"],
     price: "$42",
-    image: "https://images.unsplash.com/photo-1585238342021-c285e31fa0bb",
+    image: "https://images.unsplash.com/photo-1708388465069-1fc76ec68b1d",
     tags: ["Fusion", "Bold Flavors"]
   },
   {
@@ -74,7 +74,7 @@ const dishes = [
     description: "Molten dark chocolate cake with a rich gooey center, served with vanilla ice cream and raspberry sauce for a decadent dessert.",
     ingredients: ["Dark chocolate", "Butter", "Eggs", "Vanilla ice cream"],
     price: "$18",
-    image: "https://images.unsplash.com/photo-1613145991293-cd4f9ebf58b3",
+    image: "https://images.unsplash.com/photo-1625497248011-3c634a78df8b",
     tags: ["Dessert", "Signature", "Indulgent"]
   }
 ];

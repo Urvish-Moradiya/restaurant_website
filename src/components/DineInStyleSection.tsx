@@ -2,19 +2,19 @@
 const DineInStyleSection = () => {
   const images = [
     {
-      url: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?q=80&w=500&auto=format&fit=crop",
+      url: "https://images.unsplash.com/photo-1583148909639-d3f7dcd103f0",
       alt: "Elegant dining room"
     },
     {
-      url: "https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=500&auto=format&fit=crop",
+      url: "https://images.unsplash.com/photo-1716835540586-58eb6242e95f",
       alt: "Private dining area"
     },
     {
-      url: "https://images.unsplash.com/photo-1500673922987-e212871fec22?q=80&w=500&auto=format&fit=crop",
+      url: "https://images.unsplash.com/photo-1655132105938-6a65dee23189",
       alt: "Bar area"
     },
     {
-      url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=500&auto=format&fit=crop",
+      url: "https://images.unsplash.com/photo-1649412212173-1d0f6b5f8f1c",
       alt: "Outdoor terrace"
     }
   ];

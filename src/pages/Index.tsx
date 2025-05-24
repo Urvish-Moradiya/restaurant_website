@@ -1,7 +1,6 @@
 
 import HeroSection from '@/components/HeroSection';
 import CulinaryShowcase from '@/components/CulinaryShowcase';
-import StorySection from '@/components/StorySection';
 import WhyChooseUsSection from '@/components/WhyChooseUsSection';
 import ChefsPicks from '@/components/ChefsPicks';
 import DineInStyleSection from '@/components/DineInStyleSection';
