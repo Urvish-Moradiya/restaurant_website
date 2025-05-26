@@ -34,7 +34,6 @@ A modern, responsive restaurant website built using **Vite**, **Tailwind CSS**, 
 | shadcn/ui        | Modern, accessible React UI components built with Tailwind CSS |
 | Tailwind CSS     | Utility-first CSS framework for rapid UI styling |
 | Vite             | Build tool and dev server for fast development  |
-| React Router     | Declarative routing for React apps (if used)    |
 
 
 ---
