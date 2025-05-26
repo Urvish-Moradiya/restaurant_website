@@ -25,12 +25,17 @@ A modern, responsive restaurant website built using **Vite**, **Tailwind CSS**, 
 
 ## 🚀 Tech Stack
 
-| Tech         | Description                             |
-|--------------|-----------------------------------------|
-| **Vite**     | Blazing fast front-end build tool       |
-| **Tailwind** | Utility-first CSS framework             |
-| **TypeScript** | Superset of JavaScript with types     |
-| **PostCSS**  | Tool for transforming CSS with JS       |
+## Technologies Used
+
+| Technology       | Description                                    |
+|------------------|------------------------------------------------|
+| React            | JavaScript library for building user interfaces |
+| TypeScript       | Typed superset of JavaScript for safer code     |
+| shadcn/ui        | Modern, accessible React UI components built with Tailwind CSS |
+| Tailwind CSS     | Utility-first CSS framework for rapid UI styling |
+| Vite             | Build tool and dev server for fast development  |
+| React Router     | Declarative routing for React apps (if used)    |
+
 
 ---
 
